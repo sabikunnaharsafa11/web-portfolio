@@ -1,7 +1,10 @@
+
+/* navber  */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title{
@@ -9,6 +12,8 @@ nav {
     font-size: 45px;
     font-weight: 800;
 }
+
+/* button */
 .btn-primary{
     color: white;
   background-color: tomato;
@@ -18,9 +23,16 @@ nav {
   font-weight: 700;
   padding: 10px 30px;
   /* width: 90px;
-  height: 30px; */
-  
-   
+  height: 30px; */   
+}
+.btn{
+  color:tomato;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-color: tomato;
+  margin-left: 10px;
 }
 
 nav>ul{
@@ -37,3 +49,86 @@ nav a{
     text-decoration: none;
     color: rgb(14, 11, 11);
 }
+
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 20px 30px 0 160px;
+    display: flex;
+    align-items: center;
+}
+.banner-greeting{
+    font-size: 40px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title{
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+
+/* button */
+.btn-primary{
+    color: white;
+  background-color: tomato;
+  border-radius: 5px;
+  border: 0;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 30px;
+  /* width: 90px;
+  height: 30px; */   
+}
+
+.btn{
+  color:tomato;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-color: tomato;
+  margin-left: 10px;
+}
+/* img */
+.img{
+    width: 550px;
+    margin-left: 280px;
+   
+}
+
+/* Main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about style */
+.about{
+    padding: 120px;
+    text-align: center;
+    background-color: #FFF8F3;
+    margin: 130px 0;
+}
+
+.about-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.about-info{
+    text-align: center;
+   
+}
+.info-title{
+    color: #474747;
+}
+         
